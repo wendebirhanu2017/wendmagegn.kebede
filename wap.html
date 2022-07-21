@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="top-nav">
+                <div class="img-cont " >
+                    <img style="width: 50px;" src="img/logo-modified.png" alt="">
+                    <p>Maharishi International University</p> 
+                </div>           
+                <div class="img-cont">
+                    <img  src="img/search.png" alt=""> 
+                    <img  src="img/bell.png" alt="">
+                    <img  src="img/nav.png" alt="">
+                    <img  src="img/user.png" alt="">
+                </div>              
+        </nav>
+        <nav id="bottom-nav">
+            <div class="img-cont1" style=" background-color:#cadae3;  color:#0f3e57; ">
+                <label   for="">Home</label>
+            </div>
+            <div class="img-cont1">
+                <label for="">CS472-2022-07E-07H-2</label>
+            </div>
+            <div class="img-cont1">
+                <label for="">CS401-2022-07A-07D</label>    
+            </div>
+            <div class="img-cont1">
+                <label for="">CS390-2022-06A-06D</label>    
+            </div>
+            <div class="img-cont1">
+                <label for="">STC506A-2022-05C-05D</label>    
+            </div>
+        </nav>
+    </header>
+
+    <main class="grid-cont">
+        <section class="menu">
+           <div class="overview1">
+            <div   style="display:inline-block; vertical-align: middle;" ><img style="padding-top: 5px; padding-right: 10px;" src="img/overview.png" alt="">  </div>
+            <div style="display:inline-block;vertical-align: middle;">
+               Overview
+              </div>
+              </div>
+              
+              <div class="overview2">
+                <div style="display:inline-block; vertical-align: middle;"  >
+                    <img style="padding-top: 5px; padding-right: 10px;" src="img/profile.png" alt=""> 
+                  </div>
+       
+                  <div style="display:inline-block;vertical-align: middle;">Profile</div>
+       
+             </div> 
+             <div class="overview2">
+                <div style="display:inline-block; vertical-align: middle;">
+                    <img style="padding-top: 5px; padding-right: 10px;" src="img/calender.png" alt="" >
+                    </div>
+                    <div style="display:inline-block;vertical-align: middle;">Calendar</div>
+            </div>
+          
+            <div class="overview2">
+                <div style="display:inline-block; vertical-align: middle;">
+                    <img style="padding-top: 5px; padding-right: 10px;" src="img/resources.png" alt="" >
+                    </div>
+                    <div style="display:inline-block;vertical-align: middle;">Resources</div>
+            </div>
+
+            <div class="overview2">
+                <div style="display:inline-block; vertical-align: middle;">
+                    <img style="padding-top: 5px; padding-right: 10px;" src="img/anou.png" alt="" >
+                    </div>
+                    <div style="display:inline-block;vertical-align: middle;">Announcements</div>
+            </div>
+        
+            <div class="overview2">
+                <div style="display:inline-block; vertical-align: middle;">
+                    <img style="padding-top: 5px; padding-right: 10px;" src="img/prefer.png" alt="" >
+                    </div>
+                    <div style="display:inline-block;vertical-align: middle;">Preferences</div>
+            </div>
+      
+            <div class="overview2">
+                <div style="display:inline-block; vertical-align: middle;">
+                    <img style="padding-top: 5px; padding-right: 10px; " src="img/help.png" alt="">
+                    </div>
+                    <div style="display:inline-block;vertical-align: middle;">Help</div>
+            </div>
+          </section>
+
+
+        <section class="overview">
+            <div >
+                <div style="display:inline-block; vertical-align: middle; margin-left: 10px;">
+                   <a href=""><img  src="img/overview1.png" alt="" ></a> 
+                    </div>
+                    <div style="display:inline-block;vertical-align: middle; color:#0179be ;  font-weight: 700; font-family: Helvetica , sans-serif;">OVERVIEW</div>
+            </div>
+           
+
+            <div >
+                <div class="motd">
+                    <div class="motd1">
+                        <label for="">Message Of The Day</label>
+                    </div>
+
+                    <div class="motd3">
+                         <div class="motd2">
+                           
+                                <div style="display:inline-block; vertical-align: middle;">
+                                    <img style="padding-top: 5px;  " src="img/link.png" alt="">
+                                    </div>
+                                    <div style="display:inline-block;vertical-align: middle;">Link</div>
+                                </div>
+
+                                <div class="motd2">
+                           
+                                    <div style="display:inline-block; vertical-align: middle;">
+                                        <img  style="padding: 10;" src="img/helpG.png" alt="">
+                                        </div>
+                                        <div style="display:inline-block;vertical-align: middle;">Help</div>
+                                    </div>
+
+
+                    
+                    <div class="motd2" style="width: 30px; height: 40px;">
+                       <a href=""><img style="padding-top: 6px;" src="img/mod.png" alt=""></a> 
+                    </div>
+                    </div>
+                   
+                    
+                </div>
+                <div class="option">
+                    <h2>Options</h2> 
+                <p> You are currently setting options for Message of The Day </p>
+                <h3>Message of The Day Display</h3>
+                <form action="/index.html" method="post">
+                    <input type="radio" name="anounce" id=""> Show Announcement subject <br>
+                    <br>
+                    <input type="radio" name="anounce" id=""> Show Announcement body <br><br>
+                    <label for="lines"><strong>Show about </strong></label>
+                    <select id="lines" name="lines">
+                      <option value="all line">All Lines</option>
+                      <option value="one line">One Line</option>
+                      <option value="two line">Two Line</option>
+
+                     
+                      
+                    </select>
+                    <br>
+                    <br>
+                    <label for="fname"><strong>Number of days in the past</strong></label>
+                    <input type="text" id="fname" name="fname"><br> <br>
+                    
+                    <input style="background-color:  #0179be; border: hsl(202, 99%, 37%); color:whitesmoke; padding: 8px; border-radius: 5px;" type="button" value="UPDATE"> <input style=" border:1px solid #0179be; color:#0179be; padding: 8px; border-radius: 5px;" type="button" value="Cancel">
+
+                </form>
+            </div>
+        </section>
+        <!-- <section class="calendar">
+            <p>j</p>
+        </section> -->
+       
+    </main>
+    
+</body>
+</html>
