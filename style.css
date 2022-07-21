@@ -63,7 +63,16 @@ body{
     display:inline-block;
     vertical-align: middle;
   }
-
+.overview2:hover{
+    background-color:#cadae3; 
+    color:#0f3e57; 
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    padding-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
   .overview1{
     background-color:#cadae3; 
     color:#0f3e57; 
